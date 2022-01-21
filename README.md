@@ -32,16 +32,16 @@ Shown below a big difference on run time of Original to Refactored Script.
 
 1)	Results of Run All Stocks Analysis 2017 and 2018– Original
  
- ./Resources/Original Script 2017 Screenshot.png
+    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
         Figure 1. File: Original Script 2017 Screenshot.png
 
 
- ./Resources/Original Script 2018 Screenshot
+    ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
         Figure 2. File: Original Script 2018 Screenshot.png
 
 2)	Results of Run All Stocks Analysis 2017 and 2018 – Refactored
 
-./Resources/Refactored Script 2017 Screenshot.png
+    ![](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored%20Script%202018%20Screenshot.png)
         Figure 3. File Refactored Script 2017 Screenshot
 
 ./Resources/Refactored Script 2018 Screenshot
