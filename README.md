@@ -12,7 +12,7 @@ On the excel spreadsheet,  provided 3 buttons option  to click,
     -	Run All Stocks Analysis – Refactored Script
     - 	Clear Cells
 
-![Before%20Running%20Script%20Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/
+![Before_Running_Script_Screenshot](https://github.com/OPahunang/stock-analysis/blob/main/Resources/
  
 ## Results:
 
