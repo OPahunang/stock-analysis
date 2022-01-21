@@ -7,11 +7,12 @@ The purpose of this analysis is to analyse a dataset of the entire stock market 
 There are 2 scripts developed thru VBA -  run all stocks analysis original script and run all stocks analysis refactored script. Although the original code works well for a dozen of stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute. So, a refactored script was developed. 
 
 On the excel spreadsheet,  provided 3 buttons option  to click, 
+
     -	Run All Stock Analysis – Original Script  
     -	Run All Stocks Analysis – Refactored Script
     - 	Clear Cells
 
-!/Resources/Before Running Script Screenshot.png
+./Resources/Before Running Script Screenshot.png
  
 ## Results:
 
@@ -31,19 +32,19 @@ Shown below a big difference on run time of Original to Refactored Script.
 
 1)	Results of Run All Stocks Analysis 2017 and 2018– Original
  
- !/Resources/Original Script 2017 Screenshot.png
+ ./Resources/Original Script 2017 Screenshot.png
         Figure 1. File: Original Script 2017 Screenshot.png
 
 
- !/Resources/Original Script 2018 Screenshot
+ ./Resources/Original Script 2018 Screenshot
         Figure 2. File: Original Script 2018 Screenshot.png
 
 2)	Results of Run All Stocks Analysis 2017 and 2018 – Refactored
 
-!/Resources/Refactored Script 2017 Screenshot.png
+./Resources/Refactored Script 2017 Screenshot.png
         Figure 3. File Refactored Script 2017 Screenshot
 
-!/Resources/Refactored Script 2018 Screenshot
+./Resources/Refactored Script 2018 Screenshot
         Figure 4. File Refactored Script 2018 Screenshot
 
 ##Summary:
