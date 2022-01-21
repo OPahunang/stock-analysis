@@ -47,7 +47,7 @@ Shown below a big difference on run time of Original to Refactored Script.
     ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
         Figure 4. File Refactored Script 2018 Screenshot
 
-##Summary:
+## Summary:
 
 In summary refactoring the original code makes a difference. 
 
