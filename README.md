@@ -12,8 +12,9 @@ On the excel spreadsheet,  provided 3 buttons option  to click,
     -	Run All Stocks Analysis – Refactored Script
     - 	Clear Cells
 
-![Before_Running_Script_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Before_Running_Script_Screenshot.png)
+    ![Before_Running_Script_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Before_Running_Script_Screenshot.png)
  
+
 ## Results:
 
 Stock performance overall for 2017 are all green meaning positive returns except for Ticker TERP that lost -7.2%. Highest positive performer Ticker that year is DQ with a return of 199.4% and lowest positive performer Ticker RUN with return of  5.5%. 
@@ -30,33 +31,36 @@ Shown below a big difference on run time of Original to Refactored Script.
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
 
 
-1)	Results of Run All Stocks Analysis 2017 and 2018– Original
+    1)	Results of Run All Stocks Analysis 2017 and 2018– Original
  
-    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
-        Figure 1. File: Original Script 2017 Screenshot.png
+        ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
+            *Figure 1. File: Original Script 2017 Screenshot.png*
 
 
-    ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
-        Figure 2. File: Original Script 2018 Screenshot.png
+        ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
+            *Figure 2. File: Original Script 2018 Screenshot.png*
 
-2)	Results of Run All Stocks Analysis 2017 and 2018 – Refactored
+    2)	Results of Run All Stocks Analysis 2017 and 2018 – Refactored
 
-    ![Refactored_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2017_Screenshot.png)
-        Figure 3. File Refactored Script 2017 Screenshot
+        ![Refactored_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2017_Screenshot.png)
+            *Figure 3. File Refactored Script 2017 Screenshot*
 
-    ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
-        Figure 4. File Refactored Script 2018 Screenshot
+        ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
+            *Figure 4. File Refactored Script 2018 Screenshot*
+
 
 ## Summary:
 
-In summary refactoring the original code makes a difference. 
+Refactoring the original code by using same code but modifying only how it will loop can make a difference on run time. 
 
   **Advantages of Refactoring Code:**
+      
       -	Saves time executing the job
       -	Logic is reviewed and possibility to correct for any code inconsistencies
       -	Script is modified to become more structured and well-organized
       
   **Disadvantages of Refactoring Code:**
+      
       -	If original script was not properly commented and documented it will be a nightmare to currently modifying it
       -	If not properly understood the logic of the original code, a possibility of wrong code modification to inaccurate  data result
 
