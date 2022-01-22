@@ -32,7 +32,7 @@ Shown below a big difference on run time of Original to Refactored Script.
 
 Shown below is the screen shot of the refactored script
 
-![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
+   ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
     
 Major changes from the original to the refactored are,
 
@@ -40,7 +40,8 @@ Major changes from the original to the refactored are,
 * Search Ticker in one pass, before it was part of the loop
 
 
-   A.	Results of Run All Stocks Analysis for 2017 original and refactored
+
+ A. Results of Run All Stocks Analysis for 2017 original and refactored
  
  
    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
@@ -52,7 +53,7 @@ Major changes from the original to the refactored are,
 
   
 
-   B.	Results of Run All Stocks Analysis 2018 original and refactored
+ B. Results of Run All Stocks Analysis 2018 original and refactored
 
 
    ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
@@ -61,6 +62,7 @@ Major changes from the original to the refactored are,
 
    ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
         Figure 4. File Refactored Script 2018 Screenshot*
+
 
 
 ## Summary:
