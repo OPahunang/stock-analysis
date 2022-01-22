@@ -25,12 +25,12 @@ Overall, for 2017 and 2018 Ticker ENPH is the top performer. Ticker DQ even thou
 
 Limitation of the analysis, data available are only according to 2017 and 2018 stock performance.  
 
-# Shown below a big difference on run time of Original to Refactored Script. 
+Shown below a big difference on run time of Original to Refactored Script. 
 
     Elapsed time of 2017 from  1.128906 seconds to 0.1982422 
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
 
-# Shown below is the screen shot of the refactored script
+Shown below is the screen shot of the refactored script
 
    ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
     
@@ -39,42 +39,42 @@ Limitation of the analysis, data available are only according to 2017 and 2018 s
     - Search Ticker in one pass, before it was part of the loop
 
 
-   1)	Results of Run All Stocks Analysis for 2017 original and refactored
+   A.	Results of Run All Stocks Analysis for 2017 original and refactored
  
  
    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
-            *Figure 1. File: Original Script 2017 Screenshot.png*
+        Figure 1. File: Original Script 2017 Screenshot.png*
 
 
    ![Refactored_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2017_Screenshot.png)
-            *Figure 3. File Refactored Script 2017 Screenshot*
+        Figure 3. File Refactored Script 2017 Screenshot*
 
   
 
-   2)	Results of Run All Stocks Analysis 2018 original and refactored
+   B.	Results of Run All Stocks Analysis 2018 original and refactored
 
 
    ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
-            *Figure 2. File: Original Script 2018 Screenshot.png*
+        Figure 2. File: Original Script 2018 Screenshot.png*
 
 
    ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
-            *Figure 4. File Refactored Script 2018 Screenshot*
+        Figure 4. File Refactored Script 2018 Screenshot*
 
 
 ## Summary:
 
-   # Advantages and Disadvantages of Refactored Code
+   A. Advantages and Disadvantages of Refactored Code
    
    Advantages:
-	     - Code review to efficiency, using only needed definition variables
-	     - Code logic review to remove redundant loops resulted to faster run time
-	     - Rewriting existing running code, instead developing from scratch	
+	- Code review to efficiency, using only needed definition variables
+	- Code logic review to remove redundant loops resulted to faster run time
+	- Rewriting existing running code, instead developing from scratch	
 
    Disadvantage:
-            -	Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
+        - Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
 
-   # Original vs Refactored VBA Script
+   B. Original vs Refactored VBA Script
    
    Refactored VBA Script:
             - Running refactored script has shorter run time that the original script
