@@ -32,19 +32,6 @@ Shown below a big difference run time of Original Script to Refactored Script.
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
 
 
-Shown below is the screen shot of the refactored script
-
-
-   ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
-  
-  
-Major changes from the original to the refactored are,
-
-* Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
-* Search Ticker in one pass, before it was part of the loop
-
-
-
  A. Results of Run All Stocks Analysis for 2017 original and refactored
  
  
@@ -68,27 +55,38 @@ Major changes from the original to the refactored are,
         Figure 4. File Refactored Script 2018 Screenshot*
 
 
+Shown below is the screen shot of the refactored script
+
+
+   ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
+  
+  
+Major changes from the original to the refactored are,
+
+* Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
+* Search Ticker in one pass, before it was part of the loop
+
 
 ## Summary:
 
    A. Advantages and Disadvantages of Refactored Code
    
-   Advantages:
-	- Code review for efficiency, using only needed definition variables
-	- Code logic review to remove redundant loops resulted to faster run time
-	- Rewriting existing working code, instead developing from scratch	
+   Advantages
+ 	* Code review for efficiency, using only needed definition variables
+	* Code logic review to remove redundant loops resulted to faster run time
+	* Rewriting existing working code, instead developing from scratch	
 
-   Disadvantage:
-        - Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
+   Disadvantage
+        * Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
 
    B. Original vs Refactored VBA Script
    
-   Refactored VBA Script:
-        - Running refactored script has shorter run time than the original script
-        - More efficient when it comes to using definition variables 
-        - More structured and informaional when added additonal scripts comments
+   Refactored VBA Script
+        * Running refactored script has shorter run time than the original script
+        * More efficient when it comes to using definition variables 
+        * More structured and informaional when added additonal scripts comments
 
    Original Script 
-        - Much faster to develop
+        * Much faster to develop
 
 
