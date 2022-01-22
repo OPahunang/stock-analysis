@@ -2,7 +2,7 @@
 
 ## Overview of Project:
 
-The purpose of this analysis is to analyse a dataset of the entire stock market for past few years. Presented a summarized comparison of ticker with total daily volume and corresponding return. 
+The purpose of this analysis is to analyse a dataset of the entire stock market for past few years. Presented a summarized comparison of a ticker with total daily volume and corresponding return. 
 
 There are 2 scripts developed through VBA -  run all stocks analysis original script and run all stocks analysis refactored script. Although the original code works well for a dozen of stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute. So, a refactored script was developed. 
 
