@@ -17,15 +17,16 @@ On the excel spreadsheet,  provided 3 button options  to click,
 
 ## Results:
 
-Stock performance overall for 2017 are all green meaning positive returns except for Ticker TERP that lost -7.2%. Highest positive performer Ticker that year is DQ with a return of 199.4% and lowest positive performer Ticker RUN with return of  5.5%. 
+Stock performance overall for 2017 are all green which means positive returns except for Ticker TERP that lost -7.2%. Highest positive performer Ticker that year is DQ with a return of 199.4% and lowest positive performer Ticker RUN with return of  5.5%. 
 
-Stock performance overall for 2018 are all red meaning negative returns except for two Tickers and RUN with a positive return of 84% and ENPH with a positive return of 81.9%. Lowest negative performer is Ticker DQ -62.6% return.
+Stock performance overall for 2018 are all red which means negative returns except for two Tickers RUN with a positive return of 84% and ENPH with a positive return of 81.9%. Lowest negative performer is Ticker DQ with -62.6% return.
 
 Overall, for 2017 and 2018 Ticker ENPH is the top performer. Ticker DQ even though it is the highest performer in 2017 but in 2018 it is the lowest performer. Ticker TERP both years where negative return.
 
 Limitation of the analysis, data available are only according to 2017 and 2018 stock performance.  
 
-Shown below a big difference on run time of Original to Refactored Script. 
+
+Shown below a big difference run time of Original Script to Refactored Script. 
 
     Elapsed time of 2017 from  1.128906 seconds to 0.1982422 
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
