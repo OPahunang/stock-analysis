@@ -8,9 +8,9 @@ There are 2 scripts developed through VBA -  run all stocks analysis original sc
 
 On the excel spreadsheet,  provided 3 button options  to click, 
 
-* [Run All Stock Analysis – Original Script](#Run All Stock Analysis – Original Script) 
-* [Run All Stocks Analysis – Refactored Script](#Run All Stocks Analysis – Refactored Script)
-* [Clear Cells](#Clear Cells)
+* [Run All Stock Analysis – Original Script] 
+* [Run All Stocks Analysis – Refactored Script]
+* [Clear Cells]
 
    ![Before_Running_Script_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Before_Running_Script_Screenshot.png)
  
