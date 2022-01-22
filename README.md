@@ -71,22 +71,22 @@ Major changes from the original to the refactored are,
 
    A. Advantages and Disadvantages of Refactored Code
    
-   Advantages
- 	* Code review for efficiency, using only needed definition variables
-	* Code logic review to remove redundant loops resulted to faster run time
-	* Rewriting existing working code, instead developing from scratch	
+   	Advantages
+ 		* Code review for efficiency, using only needed definition variables
+		* Code logic review to remove redundant loops resulted to faster run time
+		* Rewriting existing working code, instead developing from scratch	
 
-   Disadvantage
-        * Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
+   	Disadvantage
+        	* Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
 
    B. Original vs Refactored VBA Script
    
-   Refactored VBA Script
-        * Running refactored script has shorter run time than the original script
-        * More efficient when it comes to using definition variables 
-        * More structured and informaional when added additonal scripts comments
+   	Refactored VBA Script
+        	* Running refactored script has shorter run time than the original script
+        	* More efficient when it comes to using definition variables 
+        	* More structured and informaional when added additonal scripts comments
 
-   Original Script 
-        * Much faster to develop
+   	Original Script 
+        	* Much faster to develop
 
 
