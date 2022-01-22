@@ -34,12 +34,12 @@ Shown below is the screen shot of the refactored script
 
    ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
     
-    Major changes from the original to the refactored are:
+   Major changes from the original to the refactored are:
     - Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
     - Search Ticker in one pass, before it was part of the loop
 
 
-    1)	Results of Run All Stocks Analysis for 2017 original and refactored
+   1)	Results of Run All Stocks Analysis for 2017 original and refactored
  
  
    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
@@ -51,7 +51,7 @@ Shown below is the screen shot of the refactored script
 
   
 
-    2)	Results of Run All Stocks Analysis 2018 original and refactored
+   2)	Results of Run All Stocks Analysis 2018 original and refactored
 
 
    ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
@@ -64,22 +64,24 @@ Shown below is the screen shot of the refactored script
 
 ## Summary:
 
-    #A.	Advantages and Disadvantages of Refactored Code
-  	    Advantages:
+   # Advantages and Disadvantages of Refactored Code
+   
+   Advantages:
 	        - Code review to efficiency, using only needed definition variables
 	        - Code logic review to remove redundant loops resulted to faster run time
 	        - Rewriting existing running code, instead developing from scratch	
 
-        Disadvantage:
+   Disadvantage:
             -	Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
 
-    #B.	Original vs Refactored VBA Script
-        Refactored VBA Script:
+   # Original vs Refactored VBA Script
+   
+   Refactored VBA Script:
             - Running refactored script has shorter run time that the original script
             - More efficient when it comes to using definition variables 
             - More structured when added more comments
 
-        Original Script 
+   Original Script 
             - Much faster to develop  and a starting point
 
 
