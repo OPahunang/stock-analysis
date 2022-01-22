@@ -4,7 +4,7 @@
 
 The purpose of this analysis is to analyse a dataset of the entire stock market over the last few years. Presented a summarized comparison of ticker with total daily volume and corresponding return. 
 
-There are 2 scripts developed thru VBA -  run all stocks analysis original script and run all stocks analysis refactored script. Although the original code works well for a dozen of stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute. So, a refactored script was developed. 
+There are 2 scripts developed through VBA -  run all stocks analysis original script and run all stocks analysis refactored script. Although the original code works well for a dozen of stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute. So, a refactored script was developed. 
 
 On the excel spreadsheet,  provided 3 button options  to click, 
 
@@ -29,6 +29,14 @@ Shown below a big difference on run time of Original to Refactored Script.
 
     Elapsed time of 2017 from  1.128906 seconds to 0.1982422 
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
+
+Shown below is the screen shot of the refactored script
+
+    ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
+    
+    Major changes from the original to the refactored are:
+    - Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
+    - Search Ticker in one pass, before it was part of the loop
 
 
     1)	Results of Run All Stocks Analysis for 2017 original and refactored
@@ -56,17 +64,22 @@ Shown below a big difference on run time of Original to Refactored Script.
 
 ## Summary:
 
-Refactoring the original code by using same code but modifying only how it will loop can make a difference on run time. 
+    #A.	Advantages and Disadvantages of Refactored Code
+  	    Advantages:
+	        - Code review to efficiency, using only needed definition variables
+	        - Code logic review to remove redundant loops resulted to faster run time
+	        - Rewriting existing running code, instead developing from scratch	
 
-  **Advantages of Refactoring Code:**
-      
-      -	Saves time executing the job
-      -	Logic is reviewed and possibility to correct for any code inconsistencies
-      -	Script is modified to become more structured and well-organized
-      
-  **Disadvantages of Refactoring Code:**
-      
-      -	If original script was not properly commented and documented it will be a nightmare to currently modifying it
-      -	If not properly understood the logic of the original code, a possibility of wrong code modification to inaccurate  data result
+        Disadvantage:
+            -	Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
+
+    #B.	Original vs Refactored VBA Script
+        Refactored VBA Script:
+            - Running refactored script has shorter run time that the original script
+            - More efficient when it comes to using definition variables 
+            - More structured when added more comments
+
+        Original Script 
+            - Much faster to develop  and a starting point
 
 
