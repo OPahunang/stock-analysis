@@ -2,11 +2,11 @@
 
 ## Overview of Project:
 
-The purpose of this analysis is to analyse a dataset of the entire stock market over the last few years. Presented a summarized comparison of ticker with totally daily volume and corresponding return. 
+The purpose of this analysis is to analyse a dataset of the entire stock market over the last few years. Presented a summarized comparison of ticker with total daily volume and corresponding return. 
 
 There are 2 scripts developed thru VBA -  run all stocks analysis original script and run all stocks analysis refactored script. Although the original code works well for a dozen of stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute. So, a refactored script was developed. 
 
-On the excel spreadsheet,  provided 3 buttons option  to click, 
+On the excel spreadsheet,  provided 3 button options  to click, 
 
     -	Run All Stock Analysis – Original Script  
     -	Run All Stocks Analysis – Refactored Script
@@ -23,7 +23,7 @@ Stock performance overall for 2018 are all red meaning negative returns except f
 
 Overall, for 2017 and 2018 Ticker ENPH is the top performer. Ticker DQ even though it is the highest performer in 2017 but in 2018 it is the lowest performer. Ticker TERP both years where negative return.
 
-Limitation of the analysis, data are only according to 2017 and 2018 stock performance.  
+Limitation of the analysis, data available are only according to 2017 and 2018 stock performance.  
 
 Shown below a big difference on run time of Original to Refactored Script. 
 
@@ -31,22 +31,23 @@ Shown below a big difference on run time of Original to Refactored Script.
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
 
 
-    1)	Results of Run All Stocks Analysis 2017 and 2018– Original
+    1)	Results of Run All Stocks Analysis for 2017 original and refactored
  
  
    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
             *Figure 1. File: Original Script 2017 Screenshot.png*
 
 
-   ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
-            *Figure 2. File: Original Script 2018 Screenshot.png*
-
-
-    2)	Results of Run All Stocks Analysis 2017 and 2018 – Refactored
-
-
    ![Refactored_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2017_Screenshot.png)
             *Figure 3. File Refactored Script 2017 Screenshot*
+
+  
+
+    2)	Results of Run All Stocks Analysis 2018 original and refactored
+
+
+   ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
+            *Figure 2. File: Original Script 2018 Screenshot.png*
 
 
    ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
