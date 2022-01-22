@@ -25,12 +25,12 @@ Overall, for 2017 and 2018 Ticker ENPH is the top performer. Ticker DQ even thou
 
 Limitation of the analysis, data available are only according to 2017 and 2018 stock performance.  
 
-Shown below a big difference on run time of Original to Refactored Script. 
+# Shown below a big difference on run time of Original to Refactored Script. 
 
     Elapsed time of 2017 from  1.128906 seconds to 0.1982422 
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
 
-Shown below is the screen shot of the refactored script
+# Shown below is the screen shot of the refactored script
 
    ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
     
@@ -67,9 +67,9 @@ Shown below is the screen shot of the refactored script
    # Advantages and Disadvantages of Refactored Code
    
    Advantages:
-	        - Code review to efficiency, using only needed definition variables
-	        - Code logic review to remove redundant loops resulted to faster run time
-	        - Rewriting existing running code, instead developing from scratch	
+	     - Code review to efficiency, using only needed definition variables
+	     - Code logic review to remove redundant loops resulted to faster run time
+	     - Rewriting existing running code, instead developing from scratch	
 
    Disadvantage:
             -	Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
