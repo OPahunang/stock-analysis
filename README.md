@@ -61,21 +61,10 @@ Shown below is the screen shot of the refactored script
    ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
   
   
-  
 Changes from the original to the refactored are,
 
-	- Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
-	- Search Ticker in one pass, before it was part of the loop
-
-
-
-   ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
-  
-  
-Major changes from the original to the refactored are,
-
-	- Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
-	- Search Ticker in one pass, before it was part of the loop
+- Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
+- Search Ticker in one pass, before it was part of the loop
 
 
 
