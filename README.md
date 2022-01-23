@@ -36,11 +36,11 @@ Shown below a big difference run time of Original Script to Refactored Script.
  
  
    ![Original_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2017_Screenshot.png)
-        Figure 1. File: Original Script 2017 Screenshot.png*
+       
 
 
    ![Refactored_Script_2017_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2017_Screenshot.png)
-        Figure 3. File Refactored Script 2017 Screenshot*
+        
 
   
 
@@ -48,11 +48,11 @@ Shown below a big difference run time of Original Script to Refactored Script.
 
 
    ![Original_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Original_Script_2018_Screenshot.png)
-        Figure 2. File: Original Script 2018 Screenshot.png*
+        
 
 
    ![Refactored_Script_2018_Screenshot.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script_2018_Screenshot.png)
-        Figure 4. File Refactored Script 2018 Screenshot*
+       
 
 
 Shown below is the screen shot of the refactored script
@@ -61,10 +61,22 @@ Shown below is the screen shot of the refactored script
    ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
   
   
+  
+Changes from the original to the refactored are,
+
+	- Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
+	- Search Ticker in one pass, before it was part of the loop
+
+
+
+   ![Refactored_Script.png](https://github.com/OPahunang/stock-analysis/blob/main/Resources/Refactored_Script.png)
+  
+  
 Major changes from the original to the refactored are,
 
-* Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
-* Search Ticker in one pass, before it was part of the loop
+	- Starting price and Ending price variable definition from double to single. Double is not needed for this case, and it takes more storage space
+	- Search Ticker in one pass, before it was part of the loop
+
 
 
 ## Summary:
@@ -72,21 +84,21 @@ Major changes from the original to the refactored are,
    A. Advantages and Disadvantages of Refactored Code
    
    	Advantages
- 		* Code review for efficiency, using only needed definition variables
-		* Code logic review to remove redundant loops resulted to faster run time
-		* Rewriting existing working code, instead developing from scratch	
+ 		- Code review for efficiency, using only needed definition variables
+		- Code logic review to remove redundant loops resulted to faster run time
+		- Rewriting existing working code, instead developing from scratch	
 
    	Disadvantage
-        	* Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
+        	- Refactored may resulted to issue or issues if code been modified to wrong logic interpretation
 
    B. Original vs Refactored VBA Script
    
    	Refactored VBA Script
-        	* Running refactored script has shorter run time than the original script
-        	* More efficient when it comes to using definition variables 
-        	* More structured and informaional when added additonal scripts comments
+        	- Running refactored script has shorter run time than the original script
+        	- More efficient when it comes to using definition variables 
+        	- More structured and informaional when added additonal scripts comments
 
    	Original Script 
-        	* Much faster to develop
+        	- Much faster to develop
 
 
