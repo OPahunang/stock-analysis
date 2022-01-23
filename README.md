@@ -26,7 +26,7 @@ Overall, for 2017 and 2018 Ticker ENPH is the top performer. Ticker DQ even thou
 Limitation of the analysis, data available are only according to 2017 and 2018 stock performance.  
 
 
-Shown below a big difference run time of Original Script to Refactored Script. 
+Shown below a difference of elapsed time of Original Script to Refactored Script 
 
     Elapsed time of 2017 from  1.128906 seconds to 0.1982422 
     Elapsed time of 2018 from 1.15332 seconds to  0.1914063
